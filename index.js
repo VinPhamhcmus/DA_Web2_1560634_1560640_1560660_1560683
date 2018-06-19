@@ -633,7 +633,7 @@ app.get("/thanhtoansp/:id", function (req, res) {
             });
     });
 });
-//lấy phiên đấu giá
+//Lấy phiên đấu giá
 app.get('/laycacphiendau', function (req, res) {
 
     pool.connect(function (err, client, done) {
