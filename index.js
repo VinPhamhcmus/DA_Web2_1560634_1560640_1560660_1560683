@@ -345,7 +345,7 @@ app.post('/hoanthanhcsphien', function (req, res) {
     });
 });
 
-//Admin Sản Phẩm
+//Admin sản phẩm
 app.get('/laytaikhoan', function (req, res) {
 
     pool.connect(function (err, client, done) {
