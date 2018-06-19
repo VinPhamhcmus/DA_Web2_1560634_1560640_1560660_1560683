@@ -27,8 +27,8 @@ var config = {
     idleTimeoutMillis: 30000,
 };
 var pool = new pg.Pool(config);
-//server của client mỗi giây
-//emit liên tục mỗi giấy để lấy giá trị realtime gửi về cho client
+//Server cho client mỗi giây
+//Emit liên tục mỗi giấy để lấy giá trị realtime gửi về cho client
 setInterval(function () {
     pool.connect(function (err, client, done) {
         if (err) {
