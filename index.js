@@ -135,7 +135,7 @@ app.post('/signin', function (req, res) {
 });
 
 
-//Admin Sản Phẩm
+//admin sản phẩm
 app.get('/laysanpham', function (req, res) {
 
     pool.connect(function (err, client, done) {
