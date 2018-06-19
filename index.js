@@ -66,7 +66,7 @@ app.post('/login', function (req, res) {
                 } else {
 
                     let options = {
-                        maxAge: 1000 * 60 * 60 * 24 * 3, // would expire after 3 day
+                        maxAge: 1000 * 60 * 60 * 24 * 3,
                         httpOnly: true,
                     }
                     res.cookie('user', user.toString(), options);
@@ -116,7 +116,7 @@ app.post('/signin', function (req, res) {
                                 return console.error("error", err);
                             } else {
                                 let options = {
-                                    maxAge: 1000 * 60 * 60 * 24 * 3, // would expire after 3 day
+                                    maxAge: 1000 * 60 * 60 * 24 * 3,
                                     httpOnly: true,
                                 }
                                 res.cookie('user', user.toString(), options);
