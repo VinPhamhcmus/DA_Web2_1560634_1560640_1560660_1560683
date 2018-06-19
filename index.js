@@ -708,7 +708,7 @@ app.get('/laychitietphiendaugia/:id', function (req, res) {
 
 
 //Đấu giá client; nhận thêm tham số; mã phiên; giá đấu 
-//Phiếu đấu giá; tên đăng nhậpp
+//Phiếu đấu giá; tên đăng nhập
 app.post('/daugiaclient', function (req, res) {
     var maphien = req.body.maphien;
     var giadau = req.body.giadau;
