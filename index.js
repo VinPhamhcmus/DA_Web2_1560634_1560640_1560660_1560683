@@ -236,7 +236,7 @@ app.post('/addsanpham', function (req, res) {
             });
     });
 });
-//Admin Phiên Đấu Giá
+//admin lấy phiên đấu giá
 app.get('/layphiendaugia', function (req, res) {
 
     pool.connect(function (err, client, done) {
