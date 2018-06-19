@@ -587,7 +587,7 @@ app.post('/sigout', function (req, res) {
     });
 });
 
-//Kho Đồ
+//Lấy kho đồ sản phẩm, tình trạng phiếu đấu giá 
 app.get('/laykhodo', function (req, res) {
 
     pool.connect(function (err, client, done) {
