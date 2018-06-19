@@ -547,7 +547,7 @@ app.get("/xoahinhanh/:id", function (req, res) {
     });
 });
 
-//Bắt Đầu
+//Bắt đầu kiểm tra sesioncookie
 app.post('/kiemtrasesioncookie', function (req, res) {
 
     var lc = "";
