@@ -430,7 +430,7 @@ app.post('/cstaikhoan', function (req, res) {
             });
     });
 });
-//Admin Hình Ảnh
+//Admin hình ảnh
 app.get('/layhinhanh', function (req, res) {
 
     pool.connect(function (err, client, done) {
