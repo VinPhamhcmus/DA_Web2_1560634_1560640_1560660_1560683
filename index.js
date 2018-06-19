@@ -553,7 +553,7 @@ app.post('/kiemtrasesioncookie', function (req, res) {
     var lc = "";
     var user = req.cookies['user'];
     var pass = req.cookies['pass'];
-    //Kiểm tra cookie
+    //Thêm cookie
     if (user === undefined || pass === undefined) {
         lc += "user|pass|";
         //test
