@@ -681,6 +681,7 @@ app.get('/laycacphiendautheoloai/:id', function (req, res) {
     });
 });
 
+//lấy chi tiết phiên đấu giá
 //lấy phiên đấu giá theo loại
 app.get('/laychitietphiendaugia/:id', function (req, res) {
 
